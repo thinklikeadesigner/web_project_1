@@ -1,3 +1,7 @@
+.div {
+  border: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -6,22 +10,59 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin: 0px 0px 0px 0px;
   /* parameters for the header section */
 }
 
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
 }
 
+.content {
+  margin: 100px 0px 0px 0px;
+}
+
+.description {
+  margin: 0px 0px 0px 0px;
+}
+
+.digits {
+  margin: 100px 0 100px 0px;
+}
+
+.feynman {
+  margin: 0px 0px 0px 0px;
+}
+
+.kaufman {
+  margin: 90px 0px 90px 0px;
+}
+
+.footer {
+  margin: 60px 0px 40px 0px;
+}
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
