@@ -271,7 +271,6 @@ margin: 0 0 20px;
   z-index: 1;
   margin: 0;
   padding: 0;
-  justify-content: space-between;
 }
 
 .table__cell_theme_dark {
@@ -303,7 +302,6 @@ margin: 0 0 20px;
   display: flex;
   width: 90%;
   color: white;
-  flex-basis: 711px;
 }
 
 .footer__column_content_info {
