@@ -20,6 +20,7 @@
   position: relative;
   overflow: hidden;
   background-color: #f2f2f2;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -28,23 +29,19 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 100;
 }
 
 .header__title {
   max-width: 730px;
-  display: flex;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 50;
 }
 
 .header__subtitle {
   max-width: 388px;
   position: absolute;
-  z-index: 101;
   bottom: 30px;
   left: 64px;
   line-height: 25px;
@@ -63,7 +60,7 @@
   right: 0;
   width: 765px;
   height: 608px;
-  z-index: 2;
+  z-index: -1;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -74,7 +71,7 @@
   top: 64px;
   right: 0;
   background-color: #2f80ed;
-  z-index: 1;
+  z-index: -2;
 }
 
 .content {
@@ -244,6 +241,7 @@ margin: 0 0 20px;
   overflow: hidden;
   padding-top: 90px;
   padding-bottom: 90px;
+  z-index: 1;
 }
 
 .kaufman__triangle {
@@ -253,22 +251,19 @@ margin: 0 0 20px;
   top: 0;
   width: 877px;
   height: 877px;
-  z-index: 0;
+  z-index: -1;
   content: url(../images/kaufman-triangle.svg);
 }
 
 .section-title_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
-  z-index: 1;
 }
 
 .table_theme_dark {
-  z-index: 1;
   margin: 0;
   padding: 0;
 }
@@ -295,10 +290,11 @@ margin: 0 0 20px;
   flex-direction: column;
   align-items: center;
   padding: 60px 0 40px;
+  min-height: 350px;
+  box-sizing: border-box;
 }
 
-.footer__columns {
-  min-height: 350px;
+.footer__column {
   display: flex;
   width: 90%;
   color: white;
@@ -334,14 +330,17 @@ margin: 0 0 20px;
 }
 
 .footer__column-links {
-  line-height: 30px;
+  margin: 0 0 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__link {
+  line-height:30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
-  margin: 0 0 16px;
   text-decoration: none;
-  list-style: none;
-  padding: 0;
 }
 
 .logo_place_footer {
