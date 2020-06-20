@@ -1,6 +1,5 @@
 .cards__item {
   margin: 0 100px 0 0;
-  flex-direction: column;
   width: 240px;
   text-align: center;
 }
