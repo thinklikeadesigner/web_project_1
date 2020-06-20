@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../Blocks/cards/cards.css);
 @import url(../Blocks/content/content.css);
 @import url(../Blocks/description/description.css);
