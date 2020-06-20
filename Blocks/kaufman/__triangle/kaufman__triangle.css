@@ -6,5 +6,6 @@
   width: 877px;
   height: 877px;
   z-index: -1;
-  content: url(../images/kaufman-triangle.svg);
+  content: url(../../../images/kaufman-triangle.svg
+  );
 }
