@@ -26,18 +26,3 @@ All links on the page change opacity when you hover over them with your mouse. I
 '''
 
 I also used @keyframes to create rotating background images.
-
-#### Example:
-
-
-'''
-@keyframes rotation {
-  from {
-    transform: rotate(0deg)
-  }
-  to {
-    transform: rotate(360deg)
-  }
-
-}
-'''
