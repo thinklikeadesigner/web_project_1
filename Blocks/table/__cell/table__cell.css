@@ -1,7 +1,7 @@
 @import url(./_theme/table__cell_theme_dark.css);
+@import url(./_theme/table__cell_theme_light.css);
 
 .table__cell {
-  width: 250px;
-  margin: 60px 0 0;
+  padding: 0;
 }
 
