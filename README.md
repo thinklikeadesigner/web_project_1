@@ -1,7 +1,7 @@
 # Learning How to Learn
 ## A single page Desktop webpage
 
-#[Live Demo](https://thinklikeadesigner.github.io/web_project_1/)
+[Live Demo](https://thinklikeadesigner.github.io/web_project_1/)
 
 ### Description
 
