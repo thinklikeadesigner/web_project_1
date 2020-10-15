@@ -1,6 +1,8 @@
 # Learning How to Learn
 ## A single page webpage
 
+[Live Demo](https://thinklikeadesigner.github.io/web_project_1/)
+
 ### Description
 
 I created a single page website from a brief. I followed the specifications closely. The webpage is about the learning process and it has 11 sections total, including the header and footer. This project was a continuation of a project I worked on in the past. The previous project was a static webpage, but I made some upgrades that made this iteration more dynamic. One of these upgrades include animations.
