@@ -1,5 +1,5 @@
 # Learning How to Learn
-## A single page webpage
+## A single page Desktop webpage
 
 #[Live Demo](https://thinklikeadesigner.github.io/web_project_1/)
 
